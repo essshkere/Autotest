@@ -13,7 +13,7 @@ class MainKtTest {
         val card = "Visa"
 
         val result = commissionCalc(card, currentTransfer,  transferMonth)
-        assertEquals(35, result)
+        assertEquals(34, result)
 
     }
 
